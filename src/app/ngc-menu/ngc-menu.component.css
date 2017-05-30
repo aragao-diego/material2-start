@@ -1,0 +1,12 @@
+md-sidenav {
+  width: 300px;
+}
+md-sidenav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+   overflow-x:hidden;
+}
+md-sidenav ul button {
+  width: 320px;
+}

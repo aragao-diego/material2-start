@@ -1,0 +1,12 @@
+
+
+<md-sidenav-container>
+  <md-sidenav mode="side" opened="true">
+    <ul>
+      <li *ngFor="let item of items">
+        <button md-button fxLayoutAlign="start" fxLayoutGap="4px"><md-icon>{{item.icon}}</md-icon>{{item.label}}</button>
+      </li>
+    </ul>
+  </md-sidenav>
+  <app-ngc-conteudo></app-ngc-conteudo>
+</md-sidenav-container>

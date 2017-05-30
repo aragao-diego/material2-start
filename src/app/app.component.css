@@ -1,15 +1,8 @@
-:host {
-  display: flex;
-  flex: 1;
-}
 
-md-sidenav {
-  width: 320px;
-}
 
-.content {
-  padding: 12px;
-}
+
+
+
 
 /deep/ md-icon.avatar {
   overflow: hidden;

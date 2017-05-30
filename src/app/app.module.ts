@@ -11,11 +11,19 @@ import {AppComponent} from './app.component';
 import {DialogComponent} from './dialog/dialog.component';
 
 import 'hammerjs';
+import { MenuComponent } from './menu/menu.component';
+import { NgcMenuComponent } from './ngc-menu/ngc-menu.component';
+import { NgcConteudoComponent } from './ngc-conteudo/ngc-conteudo.component';
+import { NgcHeaderComponent } from './ngc-header/ngc-header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DialogComponent,
+    MenuComponent,
+    NgcMenuComponent,
+    NgcConteudoComponent,
+    NgcHeaderComponent,
   ],
   imports: [
     BrowserModule,

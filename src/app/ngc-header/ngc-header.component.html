@@ -1,0 +1,18 @@
+<md-toolbar color="primary" fxLayoutGap="10px">
+  <button md-button class="menu">
+    <md-icon>menu</md-icon>
+  </button>
+
+  <span>Angular Material</span>
+
+  <!-- Filler that pushes the menu button to the end of the toolbar -->
+  <span fxFlex></span>
+
+  <button md-icon-button [mdMenuTriggerFor]="themeMenu">
+    <md-icon>more_vert</md-icon>
+  </button>
+  <md-menu #themeMenu x-position="before">
+    <button md-menu-item (click)="toggleTheme()">Toggle Theme</button>
+  </md-menu>
+
+</md-toolbar>

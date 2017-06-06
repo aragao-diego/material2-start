@@ -1,0 +1,12 @@
+<p fxFlex fxLayout="column">
+  <app-ngc-input name="nomePessoa" placeholder="nome da pessoa" [(ngModel)]="pessoa.nome"></app-ngc-input>
+
+  <app-ngc-input name="sobrenomePessoa" placeholder="sobrenome da pessoa" [(ngModel)]="pessoa.sobrenome"></app-ngc-input>
+
+  <app-ngc-input name="nomeCompleto" placeholder="nome completo" [(ngModel)]="pessoa.nomeCompleto" (onFocus)="preencherNomeCompleto($event)"></app-ngc-input>
+  <span>Value: {{dataModel}}</span>
+
+
+
+  <span>Pessoa: {{pessoa | json}}</span>
+</p>

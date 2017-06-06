@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ngc-menu.component.css']
 })
 export class NgcMenuComponent implements OnInit {
-  items = [{type: 'link', label: 'Teste', icon: 'email'}];
+  items = [
+    {type: 'link', label: 'Teste', icon: 'email', url: '/pessoa'},
+    {type: 'link', label: 'Pessoa', icon: 'menu', url: '/pessoa'}
+  ];
 
   constructor() { }
 
